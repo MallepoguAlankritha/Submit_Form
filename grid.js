@@ -86,6 +86,7 @@ export default function PostsRoute() {
     </div>
   );
 }
-
+const data = [{ average: 3 }, {average: 8}, {average: 2}];
+const sortedData = data.sort((a, b) => a.average - b.average);
 
 
